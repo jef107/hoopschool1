@@ -44,7 +44,7 @@
 }
 
 /*preloader*/
-#preloader {
+/*#preloader {
     background-color: white;
     position: fixed;
     top: 0;
@@ -65,7 +65,7 @@
     margin-top: -35px;
     margin-left: -35px;
 }
-
+*/
 /*about*/
 .container {
     font-family: CollegiateBlackFLF;
