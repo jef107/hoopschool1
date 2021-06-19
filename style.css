@@ -1,3 +1,15 @@
+@font-face {
+    font-family: adelle, serif;
+
+    font-weight: 800;
+
+    font-style: normal;
+}
+
+
+
+
+
 /*eerste pagina*/
 #jumbotron {
     background-color: #EDE8BD;
@@ -39,7 +51,7 @@
 
 #slogan h1 {
     margin: .2rem 0;
-    font-family: Agency FB;
+    font-family: adelle, serif;
     font-size: 1.75rem;
 }
 
@@ -72,7 +84,7 @@
 
 /*about*/
 .container {
-    font-family: CollegiateBlackFLF;
+    font-family: ltc-squareface-sc,serif;
     font-size: 4.5rem;
     text-align: center;
     margin-bottom: -3vh;
@@ -80,7 +92,7 @@
 
 #about-h1 {
     margin-top: 6vh;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: -17vh;
     margin-top: 17vh;
 }
@@ -99,7 +111,7 @@
 }
 
 p {
-    font-family: Agency FB;
+    font-family: adelle, serif;
     font-size: 1rem;
 }
 
@@ -112,7 +124,7 @@ p {
 
 #foto-h1 {
     margin-top: 6vh;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: -17vh;
     margin-top: 17vh;
 }
@@ -140,7 +152,7 @@ p {
 }
 
 #info {
-    font-family: CollegiateBlackFLF;
+    font-family: ltc-squareface-sc,serif;;
     font-size: 2rem;
     color: #0F5386;
 }
@@ -150,7 +162,7 @@ p {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    font-family: CollegiateBlackFLF;
+    font-family: ltc-squareface-sc,serif;;
     font-size: 2rem;
     color: #0F5386;
 
@@ -178,7 +190,7 @@ p {
 
 label {
     font-size: 1.5rem;
-    font-family: Agency FB;
+    font-family: adelle;
     margin-top: .8vh;
 }
 
@@ -187,8 +199,11 @@ label {
     display: flex;
     width: 80%;
     justify-content: center;
-    margin-top: 1em;
-    margin-bottom: .1em;
+    margin-top: .5em;
+    margin-bottom: .3em;
+}
+#contact-p{
+    margin-bottom: 5em;
 }
 
 input[type=text],
