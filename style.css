@@ -220,7 +220,8 @@ textarea {
     resize: vertical
 }
 
-input[type=submit] {
+input[type=submit],
+btn {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -305,37 +306,47 @@ input[type=submit]:hover {
 @media only screen and (max-width: 860px) {
 
     #text h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 0;
     }
 
-    #navigation a {
-        font-size: 1rem;
-    }
-
     .info-part h1 {
-        font-size: 2.5rem;
+        font-size: 1rem;
         margin-top: 2rem;
     }
 
     .info-part p {
-        font-size: 1.2rem;
+        font-size: .5rem;
     }
 
     #portfolio {
-        font-size: 1.7rem;
+        font-size: 1rem;
     }
 
     #about {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        margin-top: -2em
     }
 
     #foto-h1 {
-        margin-top: 1vh;
+        margin-top: -3em;
     }
+   
 
     #about-h1 {
-        margin-top: 1vh;
+        margin-top: -3em;
+    }
+
+    #typo-h1{
+        margin-top: -3em;
+    }
+
+    #video-h1{
+        margin-top: -3em;
+    }
+
+    #contact{
+        margin-top:-7em;
     }
 
     .s1 {
@@ -344,6 +355,13 @@ input[type=submit]:hover {
 
     #backgroundImg {
         display: none;
+    }
+
+    #ring{
+        margin-top: .5em;
+    }
+    #txt{
+        font-size: .5em;
     }
 
 }
